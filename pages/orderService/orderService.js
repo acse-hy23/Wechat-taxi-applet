@@ -48,17 +48,19 @@ Page({
   wx.getSystemInfo({
     success: (res)=>{
       this.setData({
-        controls:[{
-          id: 1,
-          iconPath: '../../assets/images/mapCart.png',
-          position: {
-            left: res.windowWidth/2 - 11,
-            top: res.windowHeight/2 - 60,
-            width: 22,
-            height: 45
-            },
-          clickable: true
-        },{
+        controls:[
+        //   {
+        //   id: 1,
+        //   iconPath: '../../assets/images/mapCart.png',
+        //   position: {
+        //     left: res.windowWidth/2 - 11,
+        //     top: res.windowHeight/2 - 60,
+        //     width: 22,
+        //     height: 45
+        //     },
+        //   clickable: true
+        // },
+        {
           id: 2,
           iconPath: '../../assets/images/location.png',
           position: {
@@ -68,7 +70,8 @@ Page({
             height: 40,
             },
           clickable: true
-        },{
+        },
+        {
           id: 3,
           iconPath: '../../assets/images/walk.png',
           position: {
