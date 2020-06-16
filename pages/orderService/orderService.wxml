@@ -17,7 +17,7 @@
                     <cover-image style="width: 150rpx;height: 150rpx;"src="../../assets/images/driver.png"/>
                 </cover-view> -->
                 <cover-view class="driver-detailed" >
-                    <cover-view class="detailed-name">车辆编号：{{driver.reqId}}
+                    <cover-view class="detailed-name">订单编号：{{driver.reqId}}
                         <cover-image class="star" style="width: 35rpx;height: 35rpx;display: inline-block;" src="../../assets/images/star.png" ></cover-image>
                         <cover-view class="orderTotal"></cover-view>
                     </cover-view>
